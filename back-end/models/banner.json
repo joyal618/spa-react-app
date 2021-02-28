@@ -1,0 +1,23 @@
+[
+    {
+        "type" : "image",
+        "title": "AYURVEDIC",
+        "image": "alan-caishan-cU53ZFBr3lk-unsplash.jpg",
+        "price": "$50"
+    },
+
+    {
+        "type" : "text",
+        "title": "FAIRNESS",
+        "desc" : "Loerem ipsum dolor sit amet consectutur do eiusmod tempor incididunt labore ut enim",
+        "image": "crown.svg"
+    },
+
+    {
+        "type" : "image",
+        "title" : "HERBAL",
+        "image" : "katherine-hanlon-mod2s3-qFOc-unsplash.jpg",
+        "price": "$75"
+    }
+
+]

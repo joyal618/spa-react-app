@@ -1,0 +1,193 @@
+.massage-therapy-main-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(249,242,240,255);
+}
+
+
+.massage-therapy-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding-bottom: 100px
+}
+
+
+.masssage-therapy-caption1{
+    width: 30vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.masssage-therapy-caption2{
+    width: 30vw;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.masssage-therapy-caption2 a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.banner-image img{
+    position: relative;
+    border-radius: 5px;
+    width: auto;
+    height: 400px;
+}
+
+.banner-image-content{
+    position: absolute;
+    padding-top:300px;
+    color: white;
+}
+
+.banner-image-title{
+    font-weight: bold;
+}
+
+.massage-therapy-banners{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    position: absolute;
+    padding-bottom:400px;
+
+}
+
+.banner-textbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 2vh;
+    align-items: center;
+    width: auto;
+    height: 400px;
+    aspect-ratio: 3/4;
+    background-color: #ffac81;
+    background-image:linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+    border-radius: 3px;
+    
+}
+
+.banner-textbos-desc{
+    font-size: 0.9em;
+}
+
+.banner-textbox img{
+    filter: brightness(0) invert(1);
+    width: 50px;
+    height: auto;
+
+}
+
+.banner-textbox a{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+}
+
+.banner-textbox-title{
+    font-size: 2.5em;
+}
+
+.banner-image{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    
+}
+
+@media only screen and (max-width: 1175px){
+    .massage-therapy-main-container{
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        
+        background-color: rgba(249,242,240,255);
+    }
+    
+    
+    .massage-therapy-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        padding-top: 5vh;
+    
+    }
+    
+    
+    .masssage-therapy-caption1{
+        width: 80vw;
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    .masssage-therapy-caption2{
+        padding-top:5vh;
+        width: 80vw;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+    .massage-therapy-banners{
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3em;
+        margin-top: 5vh;
+        padding-bottom: 0vh;
+    }
+    .banner-image img{
+        width: auto;
+        height: 400px;
+    }
+
+    .banner-textbox{
+        width: auto;
+        aspect-ratio: 3/4;
+        height: 400px;
+    }
+
+    .banner-textbox-title{
+        font-size: 30px;
+    }
+    .banner-textbos-desc{
+        font-size: 15px;
+    }
+    .banner-textbox a{
+        font-size: 18px;
+    }
+    .features-list-container{
+        margin-bottom: 0px;
+    }
+}

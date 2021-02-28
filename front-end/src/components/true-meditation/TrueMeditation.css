@@ -1,0 +1,163 @@
+.true-meditation-main-container{
+    position: relative;
+    width:100%;
+    height:700px;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url("../../assets/ulvi-safari-1e4rQh_QjZw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+
+.true-meditation-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.true-meditation-play-button{
+    padding-top: 8vh;
+    padding-bottom: 2vh; 
+}
+
+.true-meditation-caption{
+    color: white;
+    font-size: 25px;;
+}
+
+.booking-form {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    bottom: 0;
+    width: 850px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px lightgrey;
+    margin-bottom: -130px;
+}
+
+.booking-form-image-container{
+    width: 50%;
+    background-size: cover;
+}
+
+.booking-form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 20px;
+    text-align: left;
+}
+
+.booking-form-content h2{
+    width: 300px;
+    margin:0px;
+}
+
+.booking-form-content h4{
+    width: 300px;
+    font-weight:  300;
+}
+
+
+.booking-form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.booking-form-input input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: rgb(239, 255, 239);
+}
+
+.booking-form-input button {
+    width: 305px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: #e1bc29;
+    background-image: linear-gradient(316deg, #e1bc29 0%, #e36463 74%);
+    cursor: pointer;
+} 
+
+
+@media only screen and (max-width: 600px) {
+    .booking-form {
+        width: 300px !important;
+    }
+
+    .booking-form-content h2{
+        width: 250px !important;
+    }
+    
+    .booking-form-content h4{
+        width: 250px !important;
+    }
+    
+    .booking-form-input input {
+        width: 250px !important;
+        height: 40px !important;
+    }
+    
+    .booking-form-input button {
+        width: 255px !important;
+        height: 40px !important;
+
+    } 
+}
+
+
+@media only screen and (max-width: 855px) {
+    .booking-form-image-container{
+        display: none;
+    }
+    .booking-form {
+        justify-content: center;
+        width: 500px;
+    }
+
+    .booking-form-content h2{
+        /* width: 250px; */
+    }
+    
+    .booking-form-content h4{
+        /* width: 250px; */
+    }
+    
+    .booking-form-input input {
+        /* width: 250px; */
+        /* height: 40px; */
+    }
+    
+    .booking-form-input button {
+        /* width: 255px; */
+        /* height: 40px; */
+
+    } 
+}
+
+/* @media only screen and (max-width: 1000px){
+    .booking-form img {
+        display: none;
+    }
+    .booking-form-content {
+        width: 100%;
+    }
+} */

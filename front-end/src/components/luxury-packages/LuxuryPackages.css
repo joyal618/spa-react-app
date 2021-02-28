@@ -1,0 +1,184 @@
+.luxury-packages-main-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+    height: auto;
+    background-color:rgba(246,236,238,255);
+;
+}
+
+.luxury-packages-design-text{
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transform: rotate(270deg);
+    font-size: 160px;
+    color: white;
+    padding-top: 385px;
+    margin-left: -365px;
+}
+
+.luxury-packages-sub-container{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 30vw;
+    padding-left: 15vw;
+}
+
+
+.luxury-packages-caption-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
+    width: 20vw;
+    height:500px;
+    text-align: left;
+}
+
+
+.luxury-packages-caption1{
+    color: red;
+}
+
+.luxury-packages-caption2{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.luxury-packages-caption3{
+    color: rgb(102, 102, 102);
+}
+
+.luxury-packages-arrow i{
+    font-size: 40px;
+    color: white;
+}
+
+.luxury-packages-arrow{
+    display: flex;
+    gap: 1vh;
+}
+
+.package-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    gap: 2vw;
+    
+}
+
+.package-data-card{
+    background-size: cover;
+    width:auto;
+    height: 350px;
+    aspect-ratio: 3/4;
+    border-radius: 5px;
+}
+
+.package-data-card-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: left;
+    position: relative;
+    width:auto;
+    height: 350px;
+    border-radius: 5px;
+    background-color: rgba(53, 8, 8, 0.37);
+    color: white;
+}
+
+.package-data-card img{
+    width:auto;
+    height: 350px;
+}
+
+.package-data-card-content h2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #ffac81;
+    background-image: linear-gradient(315deg, #ffac81 0%, #ff928b 74%);
+    color: white;
+    text-align: center;
+}
+
+.package-data-card-content h4{
+    width: 200px;
+    font-size:18px;
+    color:white;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1280px){
+    .luxury-packages-main-container{
+        flex-direction: column;
+        width:100%;
+        height: auto;
+    }
+    
+    .luxury-packages-sub-container{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        width: 60vw;
+        padding-left: 25vw;
+    }
+    
+    
+    .luxury-packages-caption-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vh;
+        width: 60vw;
+        height:60vh;
+        text-align: left;
+    }
+
+    .package-data{
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
+    .package-data img{
+        width: 40vw;
+    }
+    .package-data-card-content-title{
+        width: 20vw;
+        font-size: 3vw;
+    }
+    .package-data-card-content-desc {
+        width: 39vw;
+        font-size: 3.8vw;
+    }
+
+    .package-data{
+        width: 98%;
+    }
+    .package-data-card-content{
+        margin-top:-20vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px){
+    .package-data-card-content{
+        margin-top:-15vh;
+    }
+}

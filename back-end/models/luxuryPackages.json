@@ -1,0 +1,20 @@
+[
+    {
+        "title": "RELAXING",
+        "desc" : "Spa days are a necessity not a luxury",
+        "image": "lisa-hobbs-mRaNok_Ld6s-unsplash.jpg"
+    },
+
+    {
+        "title": "RELAXING",
+        "desc" : "Rest and your energy will be restored",
+        "image": "natasha-holmes-jW7u8qRMClw-unsplash.jpg"
+    },
+
+    {
+        "title" : "MASSAGE",
+        "desc"  : "Massage day is the best day of the week",
+        "image" : "osha-key-wCml4tvK-Yg-unsplash.jpg"
+    }
+
+]

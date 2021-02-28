@@ -1,0 +1,96 @@
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
+
+
+.slick-slide img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.slick-prev, .slick-next {
+  display: none;
+}
+
+.cover-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.caption-container {
+  position: absolute;
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.caption-container h1{
+  color: rgba(255, 142, 126, 255);
+  font-family: 'Mr Dafoe', cursive;
+  font-size: 150px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.caption-container h3{
+  color: white;
+  font-weight: 400;
+}
+
+.caption-container Button {
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+@media only screen and (max-width: 1000px){
+
+.caption-container h1{
+  font-size: 100px;
+}
+.caption-container h3{
+  font-size: 15px;
+}
+.caption-container Button {
+  font-size: 10px;
+}
+
+}
+
+@media only screen and (max-width: 900px) {
+  .slick-slide img {
+    display: block;
+    width: 200%;
+    height: 70vh;
+    background-position: auto;
+    background-size: auto
+  }
+  .slick-prev, .slick-next {
+    display: none;
+  }
+  .cover-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .caption-container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .main-caption {
+    color: rgba(255, 142, 126, 255);
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 100px;
+  }
+
+}

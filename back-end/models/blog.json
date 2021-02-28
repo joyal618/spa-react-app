@@ -1,0 +1,23 @@
+[
+    {
+        "title": "LIFESTYLE",
+        "desc": "How to build branded photography studios",
+        "image": "melissa-dupont-Yc7GKs9MABs-unsplash.jpg",
+        "date": "18 MAY 2020"
+    },
+
+    {
+        "title" : "MASSAGE",
+        "desc" : "The proper study of the science of design",
+        "image" : "natasha-holmes-jW7u8qRMClw-unsplash.jpg",
+        "date" : "23 MARCH 2020"
+    },
+
+    {
+        "title" : "AYURVEDIC",
+        "desc" : "Creativity is nothing but a mind set free",
+        "image" : "photo-1517487881594-2787fef5ebf7.jpg",
+        "date" : "15 FEBRUARY 2020"
+    }
+
+]
