@@ -78,9 +78,8 @@
 
 .package-data-card{
     background-size: cover;
-    width:auto;
+    width:262.5px;
     height: 350px;
-    aspect-ratio: 3/4;
     border-radius: 5px;
 }
 

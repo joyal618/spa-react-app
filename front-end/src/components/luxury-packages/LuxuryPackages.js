@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 function LuxuryPackages() {
     const [data, setData] = useState([]);
     useEffect(() => {
-        axios.get(`http://10.10.1.176:8080/luxury-packages`)
+        axios.get(`http://localhost:8080/luxury-packages`)
             .then(res => {
                 setData(res.data)
             }).catch(err => {
@@ -36,7 +36,7 @@ function LuxuryPackages() {
             <div className="package-data">
                 {
                     data && data.map(item => {
-                        var imageURL = "http://10.10.1.176:8080/" + item.image;
+                        var imageURL = "http://localhost:8080/" + item.image;
                         return (
                             <div className="package-data-card" style={{ backgroundImage: `url(${imageURL})` }}>
                                 <div className="package-data-card-overlay">

@@ -9,7 +9,7 @@ function MassageTherapy() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get(`http://10.10.1.176:8080/banners`)
+        axios.get(`http://localhost:8080/banners`)
             .then(res => {
                 setData(res.data)
             }).catch(err => {
@@ -25,7 +25,7 @@ function MassageTherapy() {
             <div className="massage-therapy-banners">
                 {
                     data && data.map(item => {
-                        var imageURL = "http://10.10.1.176:8080/" + item.image;
+                        var imageURL = "http://localhost:8080/" + item.image;
                         return (
                             <>
                                 {item.type === "image" ?

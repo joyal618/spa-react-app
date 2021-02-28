@@ -8,7 +8,7 @@ function Blog() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        axios.get(`http://10.10.1.176:8080/blogs`)
+        axios.get(`http://localhost:8080/blogs`)
             .then(res => {
                 setData(res.data);
             }).catch(err => {
@@ -27,7 +27,7 @@ function Blog() {
                     <div className="data">
                         {
                             data && data.map(item => {
-                                var imageURL = "http://10.10.1.176:8080/" + item.image;
+                                var imageURL = "http://localhost:8080/" + item.image;
                                 return (
                                     <div className="data-card">
 
